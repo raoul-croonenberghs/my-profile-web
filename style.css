@@ -1,0 +1,176 @@
+/* Global styles */
+/* Global styles */
+body {
+  background-color: #eaf1f1; /* Soft light greenish background */
+  font-family: 'Arial', sans-serif;
+  color: #333333; /* Dark grey text for readability */
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  max-width: 960px;
+  margin: 40px auto; /* Center the container */
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  background: #ffffff; /* White background for header */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #2c6e49; /* Dark green */
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #7f8c8d; /* Light grey for a subtle look */
+}
+
+/* Profile Picture */
+section img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Sections */
+section {
+  background: #ffffff; /* White background for sections */
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 2em;
+  color: #2c6e49; /* Dark green for section headers */
+  margin-bottom: 10px;
+}
+
+section p {
+  margin: 10px 0;
+}
+
+section ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #2ecc71; /* Bright green for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #27ae60; /* Slightly darker green on hover */
+  text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+  background: #2c6e49; /* Dark green footer background */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer li {
+  display: inline;
+}
+
+footer a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #3498db; /* Blue color on hover */
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #2ecc71; /* Green button */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 960px) {
+  .container {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  section h2 {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 540px) {
+  header p,
+  section p {
+    font-size: 14px;
+  }
+
+  section h2 {
+    font-size: 1.2em;
+  }
+}
